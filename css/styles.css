@@ -31,7 +31,19 @@ ul, ol, label, p, #result {
   font-size: 18px;
 }
 
-/*.ping {
+ul {
+  list-style-type: none;
+}
+
+img {
+  height: 15px;
+  width: 15px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+
+.ping {
   color: #008000;
 }
 
@@ -45,4 +57,4 @@ ul, ol, label, p, #result {
 
 .number {
   color: blue;
-}*/
+}
