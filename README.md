@@ -2,7 +2,7 @@
 
 #### _A program that either displays numbers or "ping", "pong", or "pingpong" based on the number, January 20, 2017_
 
-#### By _** Nicole Sanders**_
+#### By _**Nicole Sanders**_
 
 ## Description
 
@@ -54,4 +54,4 @@ _For questions or comments please call 333-222-9999._
 
 *This software is licensed under the MIT license*
 
-Copyright (c) 2017 **_ Nicole Sanders_**
+Copyright (c) 2017 **_Nicole Sanders_**

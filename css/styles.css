@@ -23,9 +23,11 @@ button {
 
 #result {
   display: none;
+  word-wrap: break-word;
+  line-height: 2em;
 }
 
-ul, ol, label, p {
+ul, ol, label, p, #result {
   font-size: 18px;
 }
 
