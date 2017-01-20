@@ -35,11 +35,12 @@ $(document).ready(function(){
 
     var userInput = parseInt($("#number").val());
 
+    $("ul").empty();
     $("#result").show();
-    $("#result").text(pingPong(userInput))
+    // $("#result").text(pingPong(userInput))
 
-    // $.each(pingPong(userInput), function(index){
-    //   $("#output").append("<li>" + pingPong(userInput)[index] + "</li>")
-    // });
+    $.each(pingPong(userInput), function(index){
+      $("#output").append("<li>" + pingPong(userInput)[index] + "</li>")
+    });
   })
 });
