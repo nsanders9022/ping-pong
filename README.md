@@ -50,6 +50,10 @@ _For questions or comments please call 333-222-9999._
 * _JavaScript_
 * _jQuery_
 
+### GitHub Pages link
+
+[Click here](https://nsanders9022.github.io/ping-pong/) to access the GitHub Page
+
 ### License
 
 *This software is licensed under the MIT license*
