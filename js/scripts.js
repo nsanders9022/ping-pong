@@ -1,5 +1,4 @@
 var pingPong = function(number) {
-
   var outputArray = [];
 
   if (!number) {
@@ -14,12 +13,11 @@ var pingPong = function(number) {
         outputArray.push(" pong");
       } else {
         outputArray.push(" " + i);
-      }
-    }
-  }
-
+      };
+    };
+  };
   return outputArray;
-}
+};
 
 
 $(document).ready(function(){
@@ -38,6 +36,5 @@ $(document).ready(function(){
     $("ul li:contains(ping)").addClass("ping");
     $("ul li:contains(pong)").addClass("pong");
     $("ul li:contains(PingPong)").addClass("ping-pong");
-
-  })
+  });
 });

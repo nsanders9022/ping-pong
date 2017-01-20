@@ -17,12 +17,17 @@ body {
   padding-left: 140px;
   padding-top: 80px;
   color: white;
+  text-shadow: -5px -5px orange;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 button {
   height: 50px;
   font-size: 24px;
-  background-color: #008000;
+  background-color: #4c7d4c;
 }
 
 #result {
@@ -48,8 +53,7 @@ img {
 }
 
 .ping {
-  color: #c3834c;
-;
+  color: brown;
 }
 
 .pong {
