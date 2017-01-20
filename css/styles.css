@@ -1,10 +1,28 @@
 .banner {
-  background-image: url(https://www.learnemy.com/assets/background-images/table_tennis-4b0a41df54e8689b6060cb47965811eb.jpg);
+  background-image: url(http://wallpapersdsc.net/wp-content/uploads/2015/09/Ping_Pong_HD_51.jpg);
   background-repeat: no-repeat;
   height:250px;
   width: 100%;
+  background-position: center;
 }
 
 #result {
   display: none;
+}
+
+ul {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.ping {
+  color: #008000;
+}
+
+.pong {
+  color: #3CB371;
+}
+
+.ping-pong {
+  color: #556B2F;
 }

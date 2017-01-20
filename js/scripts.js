@@ -1,3 +1,5 @@
+var color = ""
+
 var pingPong = function(number) {
   var outputArray = []
 
@@ -7,16 +9,19 @@ var pingPong = function(number) {
     for (i = 1; i <= number; i++) {
       if (i % 3 ===  0 && i % 5 === 0){
         outputArray.push("PingPong");
+        color = ".ping-pong"
       } else if (i % 3 ===  0){
         outputArray.push("ping");
+        color = ".ping"
       } else if (i % 5 ===  0){
         outputArray.push("pong");
+        color = ".pong"
       } else {
         outputArray.push(i);
       }
     }
   }
-  return outputArray;
+  return outputArray
 }
 
 
