@@ -31,8 +31,8 @@ $(document).ready(function(){
 
     $.each(pingPong(userInput), function(index){
       $("#output").append("<img src='https://cdn4.iconfinder.com/data/icons/sports-38/59/ping_pong_ball-128.png'><li>" + pingPong(userInput)[index] + "</li>")
-
     });
+    
     $("ul li:contains(ping)").addClass("ping");
     $("ul li:contains(pong)").addClass("pong");
     $("ul li:contains(PingPong)").addClass("ping-pong");
