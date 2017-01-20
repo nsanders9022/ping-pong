@@ -4,11 +4,13 @@ var pingPong = function(number) {
   for (i = 1; i <= number; i++) {
     if (i%3 ===  0){
       outputArray.push("ping")
+    } else if (i%5 ===  0){
+      outputArray.push("pong")
     } else {
       outputArray.push(i);
     }
   }
-  
+
   return outputArray
 }
 
