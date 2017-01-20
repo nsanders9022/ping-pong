@@ -5,14 +5,18 @@ body {
 .banner {
   background-image: url(http://wallpapersdsc.net/wp-content/uploads/2015/09/Ping_Pong_HD_51.jpg);
   background-repeat: no-repeat;
-  height:250px;
+  height:275px;
   width: 100%;
   background-position: center;
   margin-bottom: 30px;
+  margin-top: -20px;
 }
 
-.well {
-  margin-top: 30px;
+.title {
+  font-size: 100px;
+  padding-left: 140px;
+  padding-top: 80px;
+  color: white;
 }
 
 button {
@@ -40,7 +44,7 @@ img {
   width: 15px;
   float: left;
   margin-right: 10px;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .ping {
