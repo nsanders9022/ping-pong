@@ -30,6 +30,11 @@ _The program outputs "pingpong" in place of a number that is divisible by 15._
 * Example Input: 15
 * Example Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14 pingpong
 
+_The program outputs an error message if a blank form is submitted._
+
+* Example Input:
+* Example Output: Please enter a number
+
 ## Setup/Installation Requirements
 
 * _Clone the GitHub repository_
