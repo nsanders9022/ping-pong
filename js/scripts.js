@@ -6,13 +6,13 @@ var pingPong = function(number) {
   } else {
     for (i = 1; i <= number; i++) {
       if (i % 3 ===  0 && i % 5 === 0){
-        outputArray.push(" PingPong");
+        outputArray.push("PingPong");
       } else if (i % 3 ===  0){
-        outputArray.push(" ping");
+        outputArray.push("ping");
       } else if (i % 5 ===  0){
-        outputArray.push(" pong");
+        outputArray.push("pong");
       } else {
-        outputArray.push(" " + i);
+        outputArray.push(i);
       };
     };
   };
@@ -32,7 +32,7 @@ $(document).ready(function(){
     $.each(pingPong(userInput), function(index){
       $("#output").append("<img src='https://cdn4.iconfinder.com/data/icons/sports-38/59/ping_pong_ball-128.png'><li>" + pingPong(userInput)[index] + "</li>")
     });
-    
+
     $("ul li:contains(ping)").addClass("ping");
     $("ul li:contains(pong)").addClass("pong");
     $("ul li:contains(PingPong)").addClass("ping-pong");
