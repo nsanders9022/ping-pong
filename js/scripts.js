@@ -2,9 +2,13 @@ var pingPong = function(number) {
   var outputArray = []
 
   for (i = 1; i <= number; i++) {
-    outputArray.push(i);
+    if (i%3 ===  0){
+      outputArray.push("ping")
+    } else {
+      outputArray.push(i);
+    }
   }
-
+  
   return outputArray
 }
 
