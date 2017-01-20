@@ -4,15 +4,25 @@
   height:250px;
   width: 100%;
   background-position: center;
+  margin-bottom: 30px;
+}
+
+.well {
+  margin-top: 30px;
+}
+
+button {
+  height: 50px;
+  font-size: 24px;
+  background-color: #9ACD32;
 }
 
 #result {
   display: none;
 }
 
-ul {
+ul, label {
   font-size: 24px;
-  margin-top: 30px;
 }
 
 .ping {
@@ -25,4 +35,8 @@ ul {
 
 .ping-pong {
   color: #556B2F;
+}
+
+.number {
+  color: blue;
 }

@@ -1,7 +1,8 @@
-var color = ""
+// var color = ""
 
 var pingPong = function(number) {
-  var outputArray = []
+
+  var outputArray = [];
 
   if (!number) {
     outputArray.push("Please enter a number");
@@ -18,12 +19,13 @@ var pingPong = function(number) {
         color = ".pong"
       } else {
         outputArray.push(i);
+        color = ".number"
       }
     }
   }
-  return outputArray
-}
 
+  return outputArray;
+}
 
 
 
@@ -34,7 +36,11 @@ $(document).ready(function(){
     var userInput = parseInt($("#number").val());
 
     $("#result").show();
-    $("#output").text(pingPong(userInput))
+
+    $.each(pingPong(userInput), function(index){
+      $("#output").append("<li>" + pingPong(userInput)[index] + "</li>")
+    });
+
 
   })
 });
