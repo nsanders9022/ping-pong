@@ -48,17 +48,15 @@ img {
 }
 
 .ping {
-  color: #008000;
+  color: #c3834c;
+;
 }
 
 .pong {
-  color: #3CB371;
+  color: #7a5230;
 }
+
 
 .ping-pong {
-  color: #556B2F;
-}
-
-.number {
-  color: blue;
+  color: #302013;
 }
