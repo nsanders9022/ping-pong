@@ -1,3 +1,10 @@
+.banner {
+  background-image: url(https://www.learnemy.com/assets/background-images/table_tennis-4b0a41df54e8689b6060cb47965811eb.jpg);
+  background-repeat: no-repeat;
+  height:250px;
+  width: 100%;
+}
+
 #result {
   display: none;
 }

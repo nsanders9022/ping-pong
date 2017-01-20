@@ -1,19 +1,22 @@
 var pingPong = function(number) {
   var outputArray = []
 
-  for (i = 1; i <= number; i++) {
-    if (i % 3 ===  0 && i % 5 === 0){
-      outputArray.push("PingPong")
-    } else if (i % 3 ===  0){
-      outputArray.push("ping")
-    } else if (i % 5 ===  0){
-      outputArray.push("pong")
-    } else {
-      outputArray.push(i);
+  if (!number) {
+    outputArray.push("Please enter a number");
+  } else {
+    for (i = 1; i <= number; i++) {
+      if (i % 3 ===  0 && i % 5 === 0){
+        outputArray.push("PingPong");
+      } else if (i % 3 ===  0){
+        outputArray.push("ping");
+      } else if (i % 5 ===  0){
+        outputArray.push("pong");
+      } else {
+        outputArray.push(i);
+      }
     }
   }
-
-  return outputArray
+  return outputArray;
 }
 
 
