@@ -17,18 +17,18 @@ _The program can count up to the provided number._
 
 _The program outputs "ping" in place of a number that is divisible by 3._
 
-* Example Input: 6
-* Example Output: ping
+* Example Input: 3
+* Example Output: 1, 2, ping
 
 _The program outputs "pong" in place of a number that is divisible by 5._
 
-* Example Input: 20
-* Example Output: pong
+* Example Input: 5
+* Example Output: 1, 2, ping, 4, pong
 
 _The program outputs "pingpong" in place of a number that is divisible by 15._
 
 * Example Input: 15
-* Example Output: pingpong
+* Example Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14 pingpong
 
 ## Setup/Installation Requirements
 
