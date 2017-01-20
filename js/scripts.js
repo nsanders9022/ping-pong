@@ -10,16 +10,16 @@ var pingPong = function(number) {
     for (i = 1; i <= number; i++) {
       if (i % 3 ===  0 && i % 5 === 0){
         outputArray.push("PingPong");
-        color = ".ping-pong"
+        // color = "'.ping-pong'"
       } else if (i % 3 ===  0){
         outputArray.push("ping");
-        color = ".ping"
+        // color = "'.ping'"
       } else if (i % 5 ===  0){
         outputArray.push("pong");
-        color = ".pong"
+        // color = "'.pong'"
       } else {
         outputArray.push(i);
-        color = ".number"
+        // color = "'.number'"
       }
     }
   }
@@ -36,11 +36,10 @@ $(document).ready(function(){
     var userInput = parseInt($("#number").val());
 
     $("#result").show();
+    // $("#output").text(pingPong(userInput))
 
     $.each(pingPong(userInput), function(index){
       $("#output").append("<li>" + pingPong(userInput)[index] + "</li>")
     });
-
-
   })
 });

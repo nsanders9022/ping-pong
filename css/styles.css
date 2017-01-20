@@ -1,3 +1,7 @@
+body {
+  background-color: #8FBC8F
+}
+
 .banner {
   background-image: url(http://wallpapersdsc.net/wp-content/uploads/2015/09/Ping_Pong_HD_51.jpg);
   background-repeat: no-repeat;
@@ -14,18 +18,18 @@
 button {
   height: 50px;
   font-size: 24px;
-  background-color: #9ACD32;
+  background-color: #008000;
 }
 
 #result {
   display: none;
 }
 
-ul, label {
-  font-size: 24px;
+ul, ol, label, p {
+  font-size: 18px;
 }
 
-.ping {
+/*.ping {
   color: #008000;
 }
 
@@ -39,4 +43,4 @@ ul, label {
 
 .number {
   color: blue;
-}
+}*/
